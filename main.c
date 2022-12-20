@@ -9,12 +9,13 @@ int main() {
 		int y = rand() % 20 + 1;
 		int z = rand() % 4;
 		int a=0;
+
 		printf("[%d/10]", i);
 
 		if (z == 0) {
 			printf("%d - %d =", x, y);
 			scanf_s("%d", &a);
-			if (a = x - y)
+			if (a == x - y)
 				printf("Correct!\n");
 			else
 				printf("Wornd! Answer is %d\n", x - y);
@@ -24,7 +25,7 @@ int main() {
 		if (z == 1) {
 			printf("%d + %d =", x, y);
 			scanf_s("%d", &a);
-			if (a = x + y)
+			if (a == x + y)
 				printf("Correct!\n");
 			else
 				printf("Wornd! Answer is %d\n", x+ y);
@@ -33,7 +34,7 @@ int main() {
 		if (z == 2) {
 			printf("%d * %d =", x, y);
 			scanf_s("%d", &a);
-			if (a = x * y)
+			if (a == x * y)
 				printf("Correct!\n");
 			else
 				printf("Wornd! Answer is %d\n", x * y);
@@ -43,7 +44,7 @@ int main() {
 		if (z == 3) {
 			printf("%d / %d =", x, y);
 			scanf_s("%d", &a);
-			if (a = x / y)
+			if (a == x / y)
 				printf("Correct!\n");
 			else
 				printf("Wornd! Answer is %d\n", x / y);
